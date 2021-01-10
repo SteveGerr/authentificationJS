@@ -1,0 +1,53 @@
+.login-page-wrapp {
+  height: 100vh;
+  background: url('https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0002/05/6c85848e35400e5115a39758bccc80d9b30271e9.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #b70000;
+}
+
+.login-form-wrap {
+  width: 50%;
+}
+
+.login-form-wrap .form-card {
+  max-width: 500px;
+  width: 100%;
+  margin-right: 30px;
+}
+
+.login-form-wrap .form-card .card-title {
+  color: var(--gray);
+}
+
+.login-greeting-screen {
+  width: 50%;
+  padding: 20px;
+}
+
+.login-greeting-screen .login-greeting-screen-text {
+  max-width: 500px;
+}
+
+.login-greeting-screen .login-greeting-screen-text {
+  color: var(--white);
+  background: #a52a2a8c;
+  padding: 10px;
+}
+.login-greeting-screen .login-greeting-screen-text:hover {
+  background: #a52a2ad6;
+}
+
+.login-greeting-screen .login-greeting-screen-title {
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.login-greeting-screen .login-greeting-screen-description {
+  line-height: 1.4;
+}
+
+.form-card >>> .card {
+  background: #ffffffc9;
+}
